@@ -1,0 +1,22 @@
+h1 {
+    color: olive;
+}
+
+.header {
+    color: red;
+    background: black
+}
+
+section > div {
+    background: darkslategrey;
+    color: darkorange;
+}
+
+#special {
+    border: 10px solid #000000;
+}
+
+#article{
+   border: 30px solid #000000;
+}
+
