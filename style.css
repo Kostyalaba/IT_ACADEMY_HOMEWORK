@@ -3,9 +3,14 @@ h1 {
 }
 
 .header {
-    color: red;
-    background: green;
-    border-box; 2px red
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: yellow;
+    color: white;
+    border: 5px solid;
+}
+
 }
 
 section > p {
@@ -13,14 +18,30 @@ section > p {
     color: darkorange;
 }
 
+#font {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 #special {
     border: 10px solid #000000;
 }
 
-#article{
-    border: 10px solid #000000;
+#article {
+    border: 10px solid chocolate;
+    text-align: center;
+    font-family: 'Spicy Rice', cursive;
 }
 
 .back {
     background: darkkhaki;
+}
+
+.footer {
+    background: #000;
+    color: wheat;
+}
+
+.responses {
+    background: #000;
+    color: wheat;
 }
